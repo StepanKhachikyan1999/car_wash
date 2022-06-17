@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Mulish:wght@600&family=Poppins:ital,wght@0,500;0,700;0,800;1,600&family=Zen+Old+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=KoHo:wght@500&family=Mulish:wght@600&family=Poppins:ital,wght@0,500;0,700;0,800;1,600&family=Zen+Old+Mincho&display=swap');
+
+//global styles
+
+#root {
+    background: #060a21;
+    @media(max-width: 340px) {
+        overflow-x: hidden;
+    }
+}
+a {
+    text-decoration: none !important;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    background: #060a21 !important;
+    color: #fff !important;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root tbody td {
+    color: #fff !important;
+}
+
+.MuiDataGrid-virtualScrollerRenderZone, .css-s1v7zr-MuiDataGrid-virtualScrollerRenderZone {
+    color: #fff !important;
+}
+
+.MuiDataGrid-columnHeaders, .css-f3jnds-MuiDataGrid-columnHeaders {
+    color: #fff !important;
+}
+
+.css-s1v7zr-MuiDataGrid-virtualScrollerRenderZone {
+    cursor: pointer !important;
+    outline: none !important;
+}
+
+.all_routes_style {
+    width: 100% !important;
+}
+
+.css-3ihp42-MuiDataGrid-root {
+    border: none !important;
+    background: #060B26;
+}
+
+.css-3ihp42-MuiDataGrid-root, .MuiDataGrid-cell {
+    border-bottom: 1px solid #56577A !important;
+}
+.css-f3jnds-MuiDataGrid-columnHeaders {
+    border-bottom: 1px solid #56577A !important;
+}
+
+.css-rtrcn9-MuiTablePagination-root {
+    color: #fff !important;
+}
+.css-3ihp42-MuiDataGrid-root, .MuiDataGrid-iconSeparator {
+    color: transparent !important;
+}
+.css-3ihp42-MuiDataGrid-root, .MuiDataGrid-columnHeader:focus, .css-3ihp42-MuiDataGrid-root, .MuiDataGrid-cell:focus {
+    outline: none !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    fill: mintcream !important;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+    color: white !important;
+}
+
+.css-41abqd-MuiTableContainer-root {
+    background: #050A25 !important;
+}
+.css-1fw5qro-MuiPaper-root {
+    background: #050A25 !important;
+}
+.css-1q1u3t4-MuiTableRow-root {
+    background: #050A25 !important;
+    color: white !important;
+}
+.css-pdct74-MuiTablePagination-selectLabel {
+    color: white !important;
+}
+.css-levciy-MuiTablePagination-displayedRows {
+    color: white !important;
+}
+
+.css-177gid-MuiTableCell-root {
+    color: white !important;
+}
+
+.css-i02g0k-MuiTableCell-root {
+    color: white !important;
+    background: #050A25 !important;
+}
+
+.css-y8ay40-MuiTableCell-root {
+    color: white !important;
+    background: #050A25 !important;
+}
+
+.css-1fw5qro-MuiPaper-root {
+    padding: 10px !important;
+}
+
+
+.css-194a1fa-MuiSelect-select-MuiInputBase-input,
+.css-194a1fa-MuiSelect-select-MuiInputBase-input,
+.css-194a1fa-MuiSelect-select-MuiInputBase-input {
+    color: white !important;
+}
+
+.css-113qkos-MuiSwitch-root {
+    margin: 0 auto !important;
+}
+
+.css-177gid-MuiTableCell-root {
+    width: 40px !important;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+
+.css-1ygcj2i-MuiTableCell-root {
+    color: white !important;
+}
+
+.MuiTableCell-root,
+.MuiTableCell-head,
+.MuiTableCell-alignRight,
+.MuiTableCell-sizeMedium,
+.css-1azl6jz-MuiTableCell-root {
+    color: white !important;
+}
+
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    background: #161B3A !important;
+    color: white !important;
+}
+
+.css-1ygcj2i-MuiTableCell-root {
+    text-align: center !important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    text-transform: lowercase !important;
+}
+
+

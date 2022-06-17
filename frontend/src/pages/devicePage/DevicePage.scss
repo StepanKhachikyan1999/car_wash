@@ -1,0 +1,51 @@
+.single_device_page {
+
+}
+
+
+.single_device_slice {
+  padding: 4rem;
+}
+
+
+.device_section {
+
+  .device_section_table {
+    padding: 4rem;
+  }
+}
+
+.css-1oqv2c0-MuiPaper-root-MuiCard-root {
+  background-color:#161B3A !important;
+}
+
+.css-1oqv2c0-MuiPaper-root-MuiCard-root {
+  justify-content: space-between !important;
+
+  @media (max-width:768px) {
+    flex-direction: column;
+  }
+}
+
+.device_counter {
+  padding: 0 4rem;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+  text-align: center !important;
+}
+
+.css-177gid-MuiTableCell-root {
+  text-align: center !important;
+}
+
+.device_link {
+  font-size: 15px;
+  font-family: KoHo;
+}
+
+.not_device {
+  font-size: 18px;
+  font-family: KoHo;
+  color: #be0303;
+}

@@ -1,0 +1,67 @@
+.device_user_section {
+
+
+  .device_user_section_slice {
+    padding: 4rem;
+  }
+
+  .css-46bh2p-MuiCardContent-root:last-child {
+    background: #0b1133 !important;
+  }
+  .css-h93ljk-MuiTypography-root {
+    color: white !important;
+  }
+
+  .componenets_slice {
+    display: flex;
+    justify-content: flex-start;
+    grid-gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .components_name {
+    font-size: 20px;
+    color: white;
+    margin: 0 0 10px 0px;
+  }
+
+  .single_components {
+    width: 160px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      font-size: 13px;
+    }
+  }
+
+  .reset_counts {
+    color: white;
+    background: #d11515;
+    padding: 10px;
+    float: right;
+    border-radius: 20px;
+  }
+
+  .bonus_slice {
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-gap: 10px;
+  }
+
+  .bonus_title {
+    font-size: 18px;
+    font-weight: 600;
+    color: green;
+  }
+
+  .not_register_car_wash {
+    color: red;
+  }
+}

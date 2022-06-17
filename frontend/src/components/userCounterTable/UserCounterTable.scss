@@ -1,0 +1,38 @@
+.user_all_devices {
+
+padding: 0 4rem;
+  span {
+    color: green;
+    font-size: 22px;
+  }
+
+  .css-pwngrv-MuiPaper-root-MuiCard-root {
+    background: #060a21 !important;
+    box-shadow: 2px 4px 10px 1px rgb(201 201 201 / 47%) !important;
+  }
+  .css-1v3k7iq-MuiTypography-root {
+    color: lightgray !important;
+    font-size: 20px !important;
+
+  }
+
+  .get_counters_slice {
+    display: flex;
+    justify-content: space-between;
+
+
+  }
+  .view_device {
+
+    height: 50% !important;
+    color: white !important;
+    background: green !important;
+    padding: 10px 25px !important;
+    border-radius: 20px !important;
+    margin: 20px;
+    &:hover {
+      background: darkgreen !important;
+      transition: 0.4s !important;
+    }
+  }
+  }

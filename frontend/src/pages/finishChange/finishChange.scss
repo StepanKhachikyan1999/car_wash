@@ -1,0 +1,131 @@
+.cangeDiv {
+  width: 100%;
+}
+
+.mainDivEnterCode {
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #060A21;
+  font-family: 'Open Sans', sans-serif;
+
+  .cardStyle {
+    width: 500px;
+    border-color: white;
+    background: #060A21;
+    padding: 0px 26px;
+    border-radius: 4px;
+    margin: 30px 50px;
+    box-shadow: 0px 0 2px 0 rgba(0,0,0,0.25);
+  }
+
+  .cardStyleEnterCode {
+    width: 580px !important;
+  }
+  .form_title{
+    margin-top: 20px;
+    color: #2F2D3B;
+    //text-align: center;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+  }
+  .inputLabel {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 10px;
+    min-width: 150px;
+  }
+  .inputDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px auto;
+  }
+  input {
+    height: 40px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    border: solid 1px #ccc;
+    padding: 0px 50px;
+    outline: none;
+  }
+  input:disabled {
+    cursor: not-allowed;
+    border: solid 1px #eee;
+  }
+  .buttonWrapper {
+    margin-top: 40px;
+  }
+  .submitButton {
+    width: 34%;
+    height: 46px;
+    //margin: auto;
+    display: block;
+    color: #fff;
+    background: rgba(201, 44, 44, 0.3);
+    border-radius: 4px;
+    border-color: rgba(201, 44, 44, 0.3);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.035);
+    cursor: pointer;
+  }
+  .submitButton:disabled,
+  button[disabled] {
+    border: 1px solid #cccccc;
+    background-color: #cccccc;
+    color: #666666;
+  }
+
+  .forgot_password {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #C92C2C;
+  }
+  #submitButtonCode {
+    background: #C92C2C !important;
+  }
+
+
+  #submitButtonCode span {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+  #submitButton span {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  #signupForm p {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+  }
+
+}

@@ -1,0 +1,20 @@
+.alaliics_section_user {
+  padding: 3rem;
+
+  @media (max-width: 992px) {
+    padding: 3rem 0;
+  }
+
+  .total_info_income,.total_info_expenses {
+    @media (max-width:992px) {
+      overflow-x: scroll;
+    }
+
+  }
+
+  h5 {
+    color: white;
+    font-size: 18px;
+    font-family: KoHo sans-serif;
+  }
+}

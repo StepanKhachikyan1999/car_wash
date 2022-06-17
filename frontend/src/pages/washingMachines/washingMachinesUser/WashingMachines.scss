@@ -1,0 +1,22 @@
+.washing_machines_section_user {
+
+
+
+  .washing_machines_slice {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+  }
+
+  .buttons_carwash_user {
+    display: flex;
+    align-items: center;
+  }
+
+  .not_added_car_wash {
+    color: red;
+    font-size: 20px;
+    padding: 2rem;
+  }
+}

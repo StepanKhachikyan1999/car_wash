@@ -1,0 +1,66 @@
+.machines_list {
+  width: 100%;
+  font-size: 24px;
+  color: #fff !important;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width:768px) {
+    flex-direction: column;
+  }
+}
+
+.delete_btn {
+  padding: 5px 20px;
+  background: #C92C2C;
+  color: white;
+  border-radius: 20px;
+  gap: 5px;
+  align-items: center;
+  display: flex;
+  &:hover {
+    background: maroon;
+    transition: 0.4s;
+  }
+}
+
+.edit_btn {
+  padding: 6px 31px;
+  background: green;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  gap: 5px;
+
+  &:hover {
+    background: darkgreen;
+    transition: 0.4s;
+  }
+}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  display: flex !important;
+  @media (max-width:768px) {
+    flex-direction: column !important;
+  }
+}
+
+.buttons_carwash {
+  display: flex;
+  grid-gap: 10px;
+  align-items: center;
+  margin: 0 20px 0 0px;
+
+  @media (max-width: 500px) {
+    justify-content: center;
+    padding: 10px;
+  }
+}
+
+.carwash_username {
+  padding: 0.1rem 1rem;
+}
